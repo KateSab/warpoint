@@ -1,0 +1,17 @@
+@import './_variables.scss';
+@import './_fonts.scss';
+
+
+@mixin row-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@mixin column-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
